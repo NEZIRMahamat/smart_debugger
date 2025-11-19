@@ -2,6 +2,30 @@
 
 Un agent IA intelligent pour déboguer automatiquement du code Python buggué en utilisant l'API GROQ.
 
+## 🚀 Démarrage Rapide
+
+```bash
+# 1. Installer les dépendances
+pip install -r requirements.txt
+
+# 2. Configurer votre clé API GROQ
+export GROQ_API_KEY="votre_clé_api"
+
+# 3. Déboguer un fichier Python
+python -m smart_debugger.main examples/buggy_example1.py
+```
+
+## 📋 Table des Matières
+
+- [Description](#description)
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Architecture](#architecture)
+- [Exemples](#exemples)
+- [Documentation](#documentation)
+- [Contribution](#contribution)
+- [Licence](#licence)
+
 ## Description
 
 Smart Debugger est un outil qui utilise l'intelligence artificielle pour analyser et corriger automatiquement les erreurs dans du code Python. Il est structuré en trois composants principaux :
@@ -142,14 +166,39 @@ Le système inclut plusieurs mécanismes de sécurité :
 - Historique des tentatives de correction
 - Détection automatique de succès d'exécution
 
+## 📚 Documentation
+
+- **[USAGE.md](USAGE.md)** - Guide d'utilisation complet avec exemples détaillés
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Guide pour contribuer au projet
+- **[demo.py](demo.py)** - Script de démonstration interactive
+- **[test_smart_debugger.py](test_smart_debugger.py)** - Suite de tests
+
+## 🧪 Tests et Démo
+
+Exécutez la suite de tests :
+```bash
+python test_smart_debugger.py
+```
+
+Lancez la démonstration interactive :
+```bash
+python demo.py
+```
+
 ## Contribution
 
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
 
+Consultez [CONTRIBUTING.md](CONTRIBUTING.md) pour plus de détails.
+
 ## Licence
 
-Ce projet est sous licence MIT.
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## Auteur
 
 NEZIR Mahamat
+
+---
+
+**Note**: Ce projet nécessite une clé API GROQ pour fonctionner. Obtenez-en une gratuitement sur [console.groq.com](https://console.groq.com/).
